@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/form.css">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../assets/js/main.js"></script>
+    <title>Admission Form</title>
+</head>
+<body>
+
+
+
+        <section id="application-form">
+            <div class="application-form-wrapper container">
+
+
+
+
+                <h1>ADMISSION APPLICATION FORM</h1>
+            <div class="information">
+                <p class="notice">All Information should be written clearly in <strong>BLOCK LETTERS.</strong> <br>
+                    This information provided in this form will be used in all school documents. Hence, you are requested to provide correct information.<br>
+                    The school authority will not bear any responsibility for any wrong information provided.</p>
+            </div>
+            <!--left part-->
+            <form action="" target="_blank" method="post" enctype="multipart/form-data"><!--form start-->
+                <div class="left-part">
+                   
+                    <div class="selbranch"> <!--select Branch-->
+                        <label for="selectbranch"><b>Select Branch</b> </label><br>
+                            <select class="branchselect" name="branch" id="branch">
+                                <option value="selectbranch" selected>Select Branch</option>
+                                    <option value="#">Dhaka</option>
+                                         <option value="rajshahi">Rajshahi</option>
+                                    <option value="dinajpur">Dinajpur</option>
+                                <option value="rangpur">Rangpur</option>
+                            </select><br>
+                        </div>  
+
+                      <!--Academic year and application number-->  
+                      <div class="acyear"><!--academic year-->
+                            <label for="academicyear"><b>Academic Year</b></label><br>
+                                <select class="selectacayear" name="acayear" id="acayear">
+                                    <option value="" selected>2022-2023</option>
+                                    <option value="">2021-2022</option>
+                            </select>  
+                      </div>
+
+                      <div class="appnumber">
+                            <label for=""><b>Application Number</b></label>
+                                <input class="applicationnumber" type="number" name="applinumber" id="applinumber" placeholder="2023118120224">
+                      </div>
+                      
+
+                      <!--Surname-->
+                      <div class="surename">
+                            <label for="surename"><b>1. Surname (As per birth certificate)</b></label><br>
+                            <input class="suremae" type="text" name="surename" id="surename">
+                      </div>
+
+                      <!--students name-->
+                      <div class="studentsname">
+                            <label for="stuname"><b>2. Students Name</b></label>
+                            <input class="sutdentn" type="text" name="studenname" id="studenname">
+                      </div>
+                   
+                      <!--Date of Birth and Gender-->
+                      <div class="dob">
+                        <label for="dob"><b>3. Date of Birth</b></label>
+                        <input type="date" name="date" id="date">
+                      </div>
+
+                      <div class="gender">
+                        <label for="gender"><b>4. Gender</b></label>
+                            <select name="gen" id="gen">
+                                <option value="">Male</option>
+                                    <option value="">Female</option>
+                                <option value="">Others</option>
+                            </select>
+                      </div>
+
+                      <!--Religion Nationality-->
+                    <div class="relnat">
+                      <div class="religion">
+                        <label for="religi"><b>5. Religion:</b></label>
+                             <select name="regi" id="reli">
+                                <option value="" selected>Select</option>
+                                <option value="">Islam</option>
+                                <option value="">Hindu</option>
+                                <option value="">Buddisht</option>
+                             </select>
+                      </div>
+
+                      <div class="nationality">
+                        <label for="national"><b>6. Nationality</b></label>
+                            <select name="nation" id="nation">
+                                <option value="" selected>Bangladeshi</option>
+                                    <option value="">Indian</option>
+                                <option value="">Pakistani</option>
+                            </select>
+                      </div>
+                    </div>
+
+
+<!--class for applied and  blood group-->
+                    <div class="classappliedblood">
+                        <div class="classapplied">
+                            <label for="clapp"><b>7. Class Applied For:</b></label>
+                                <select name="classapp" id="classapp">
+                                    <option value="" selected>Select Class</option>
+                                        <option value="">Six</option>
+                                            <option value="">Seven</option>
+                                            <option value="">Eight</option>
+                                        <option value="">Nine</option>
+                                    <option value="">Ten</option>
+                                </select>
+                        </div>
+
+                        <div class="bloodgroup">
+                            <label for="blogr"><b>8. Blood Group:</b></label>
+                            <select name="blogrou" id="blogrou">
+                                <option value="" selected>Unknown</option>
+                                    <option value="">O+</option>
+                                        <option value="">A+</option>
+                                        <option value="">O-</option>
+                                    <option value="">B-</option>
+                                <option value="">AB+</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+<!--passport number-->
+                    <div class="passport">
+                        <label for="pass"><b>9. Passport (If any)</b></label>
+                            <input type="text" name="passnum" id="passnum">
+                    </div>
+
+<!--present address and permanent address-->
+                    <div class="presentpermanent">
+                        <div class="prsent">
+                            <fieldset>
+                                <legend><b>Present Address</b></legend>
+                                <textarea name="preadd" id="preadd" cols="30" rows="7"></textarea>
+                            </fieldset>
+                        </div>
+
+                        <div class="permanent">
+                            <fieldset>
+                                <legend><b>Present Address</b></legend>
+                                <textarea name="preadd" id="preadd" cols="30" rows="7"></textarea>
+                            </fieldset>
+                        </div>
+                    </div>
+
+ <!--Father details name, occupation, contact, email office-->
+                        <div class="fatherdetail">
+                            <div class="fathername">
+                                <label for="fatherna"><b>12. Father Name</b></label>
+                                <input type="text" name="faname" id="faname" placeholder="Father Full Name">
+                            </div>
+
+
+
+                            <div class="occupationcontact">
+                                <div class="occutation">
+                                    <label for="occu"><b>Occupation</b></label>
+                                    <select name="occ" id="occ">
+                                        <option value="" selected>Select</option>
+                                            <option value="">Teacher</option>
+                                            <option value="">Farmer</option>
+                                        <option value="">Doctor</option>
+                                    </select>
+                                </div>
+                                <div class="contact">
+                                    <label for="contact"><b>Contact</b></label>
+                                        <input type="tel" name="phone" id="phone" placeholder="+880">
+                                </div>
+                            </div>
+
+                            <div class="emailofficecontavt">
+                                <div class="emailcon">
+                                    <label for="email"><b>Email:</b></label>
+                                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                                </div>
+
+                            </div>
+
+                         
+
+                        </div>
+
+
+        <!--Mother details name, occupation, contact, email office-->
+                         <div class="fatherdetail">
+                            <div class="fathername">
+                                <label for="fatherna"><b>13. Mother Name</b></label>
+                                <input type="text" name="faname" id="faname" placeholder="Mother Full Name">
+                            </div>
+
+
+
+                            <div class="occupationcontact">
+                                <div class="occutation">
+                                    <label for="occu"><b>Occupation</b></label>
+                                    <select name="occ" id="occ">
+                                        <option value="" selected>Select</option>
+                                            <option value="">Teacher</option>
+                                            <option value="">Farmer</option>
+                                        <option value="">Doctor</option>
+                                    </select>
+                                </div>
+                                <div class="contact">
+                                    <label for="contact"><b>Contact</b></label>
+                                        <input type="tel" name="phone" id="phone" placeholder="+880">
+                                </div>
+                            </div>
+
+                            <div class="emailofficecontavt">
+                                <div class="emailcon">
+                                    <label for="email"><b>Email:</b></label>
+                                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                                </div>
+
+                               
+                            </div>
+
+                            
+
+                        </div>
+
+                </div><!--left-part end-->
+
+                <!--right part-->
+                <div class="right-part">
+                    <div class="stuphoto">
+                        <label for="stphoto"><b>Student Photo</b></label><br>
+                            <img src="../assets/img/1382404555_Edit-Male-User.png" alt="student-Photo-Image" >
+                            <input type="file" name="image" id="image">
+                    </div>
+                    <div class="notes">
+                        <p> Notes: All uploaeded photo extension need to be: jpg,jpeg,png,gif</p>
+                    </div>
+
+     
+                    <div class="abaddmission">
+                        <ul>
+                            <li>This Admission Application Form is cost BDT <b>1500/= </b>(One Thousand Five Hundred Taka Only)</li>
+                            <li>Please Send BDT<b> 1500/=</b> by bKash in number<b> +8801717063654, </b>use applicant's First Name as reference in BKash.</li>
+                        </ul>
+                    </div>
+     <!--bKash Transaction Number:-->               
+                    <div class="trans-number">
+                        <div class="trans">
+                            <label for=""><b>bKash Transaction Number: *</b></label>
+                            <input type="number" name="" id="">
+                        </div>
+                        <div class="sennum">
+                            <label for="">	<b>bKash Sender Mobile: *</b></label>
+                            <input type="number" name="" id="">
+                        </div>
+                    </div>
+
+<!--Application Date:-->
+                    <div class="appdate">
+                        <label for=""><b>Application Date</b></label>
+                        <input type="date" name="" id="">
+                    </div>
+<!--DECLEARATION:-->
+
+                    <div class="decleartion">
+                        <input type="checkbox" name="" id=""> <label for=""> I declare that the information given above is correct. 
+                            I hereby agree that I will not cause any type of inconvenience to arise which may stem from any kind of 
+                            wrong information having been provided. As such I will respect 
+                            any decision taken by the school authority.</label>
+                    </div>
+<!--Submit Application-->
+                <div class="sendapp">
+                    <input type="submit" value="Submit Application" onclick="student_application_form()">
+                </div>
+                </div><!--right part end-->
+   
+        </form><!--form finished-->
+
+
+
+
+            </div>
+        </section>
+
+
+        
+
+
+</body>
+</html>

@@ -1,0 +1,552 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+   
+}
+
+#application-form{
+    margin: 0 auto;
+    width: 1245px;
+    padding: 10px 0px ;
+    
+}
+/*heading */
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800px;
+    font-size: 38px;
+    color: rgb(29, 23, 14);
+    margin: 0;
+}
+            /*paragraph side*/
+.information{
+    float: left;
+    width: 1230px;
+    background-color:#D9EDF0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 1px #807f7f ;
+    
+}
+
+.notice{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px 100px 20px 100px;
+    line-height: 20px;
+}
+
+            /*-----------------------form left part-------------------------------*/
+.left-part{
+    float: left;
+    width: 600px;
+    margin-top: 15px;
+    padding-right: 6px;
+    
+}
+            /*select branch*/
+.selbranch{
+    width: 600px;
+    float: left;
+    background-color: #ffff99;
+    height: 59px;
+    /*box-shadow: 1px 1px 2px 1px #807f7f ;
+    padding: 5px 10px;*/
+}
+.branchselect{
+    width: 600px;
+    overflow: hidden;
+    margin-top: 5px;
+    padding: 5px 0px;
+}
+                /*select Academic year*/
+.acyear{
+    width: 300px;
+    float: left;
+    margin-top: 15px;
+    
+}
+.selectacayear{
+    width: 292px;
+    padding: 5px 0px;
+}
+                /*select Application Number*/
+.appnumber{
+    width: 300px;
+    float: left;
+    margin-top: 15px;
+}
+.applicationnumber{
+    width: 292px;
+    padding: 5px 0px;
+    background-color: #ffff99;
+}
+
+.surename{
+    width: 600px;
+    float: left;
+    margin-top: 15px;
+}
+.suremae{
+    width: 592px;
+    padding: 5px 0px;
+}
+/*Students Name*/
+.studentsname{
+    width: 600px;
+    float: left;
+    margin-top: 15px;
+}
+.studentsname input{
+    width: 592px;
+    padding: 5px 0px;
+}
+
+/*Date of Birth and Gender*/
+.dob{
+    width: 300px;
+    float: left;
+    margin-top: 15px;
+}
+
+.dob input{
+    width: 292px;
+    padding: 5px 0px;
+}
+.gender{
+    width: 300px;
+    float: left;
+    margin-top: 15px;
+}
+.gender select{
+    width: 300px;
+    padding: 5px 0px;
+}
+/*Religion and Nationality*/
+.relnat{
+    margin-top: 15px;
+    width: 600px;
+    float: left;
+}
+.religion{
+    width: 300px;
+    float: left;
+}
+.religion select{
+    width: 295px;
+    padding: 5px 0px;
+   
+}
+
+.nationality{
+    width: 300px;
+    float: left;
+}
+.nationality select{
+    width: 295px;
+    padding: 5px 0px;
+}
+
+/*Class for applied and blood group*/
+.classappliedblood{
+    width: 600px;
+    float: left;
+    margin-top: 15px;
+}
+
+.classapplied{
+    width: 300px;
+    float: left;
+}
+.classapplied select{
+    width: 292px;
+    padding: 5px 0px;
+}
+.bloodgroup{
+    width: 300px;
+    float: left;
+}
+.bloodgroup select{
+    width: 300px;
+    padding: 5px 0px;
+}
+/*Passport if any*/
+.passport{
+    width: 600px;
+    float: left;
+    margin-top: 15px;
+}
+.passport input{
+    width: 592px;
+    padding: 5px 0px;
+}
+/*present address and permanent address*/
+.presentpermanent{
+    width: 600px;
+    float: left;
+    margin-top: 15px;
+}
+.prsent{
+    width: 300px;
+    float: left;
+}
+
+.permanent{
+    width: 300px;
+    float: left;
+}
+
+/*Father Details*/
+.fatherdetail{
+    width: 600px;
+    float: left;
+    margin-top: 15px;
+}
+
+.fathername{
+    width: 600px;
+    float: left;
+}
+.fathername input{
+    width: 592px;
+    padding: 5px 0px;
+}
+.occupationcontact{
+    width: 600px;
+    float: left;
+    margin-top: 15px;
+}
+/*occutation*/
+.occutation{
+    width: 300px;
+    float: left;
+}
+.occutation select{
+    width: 295px;
+    padding: 5px 0px;
+}
+/*contact*/
+.contact{
+    width: 300px;
+    float: left;
+}
+.contact input{
+    width: 292px;
+    padding: 5px 0px;
+}
+
+/*email and office contact*/
+.emailofficecontavt{
+    width: 600px;
+    float: left;
+    margin-top: 15px;
+}
+
+.emailcon{
+    width: 300px;
+    float: left;
+}
+
+.emailcon input{
+    width: 285px;
+    padding: 5px 0px;
+}
+.officecontact{
+    width: 300px;
+    float: left;
+}
+.officecontact input{
+    width: 292px;
+    padding: 5px 0px;
+}
+
+.officeaddress{
+    width: 600px;
+    float: left;
+    margin-top: 15px;
+}
+.officeaddress textarea{
+    width: 592px;
+    float: left;
+    height: 100px;
+}  
+
+
+
+/****************************form right part*******************************/
+
+
+.right-part{
+    float: left;
+    width: 600px;
+    padding-left: 15px;
+    margin-top: 15px;
+    border-left: 4px solid rgb(141, 141, 141);
+    
+}
+.stuphoto{
+    width: 600px;
+    float: left;
+}
+.stuphoto img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+}
+.stuphoto input{
+    float: left;
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.notes{
+    width: 600px;
+    float: left;
+}
+.notes p{
+    text-align: left;
+    color: red;
+}
+.reoptcard{
+    width: 600px;
+    float: left;
+}
+.birthlastyear{
+    width: 300px;
+    float: left;
+}
+/*Birth Certificate and lastyear report card image*/
+.birthcert{
+    width: 295px;
+    float: left;
+}
+.birthcert img{
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left:20px;
+}
+.birthcert input{
+    width: 295px;
+    float: left;
+    margin-top: 10px;
+}
+.passportvisitingcard{
+    width: 600px;
+    float: left;
+    padding-top: 10px;
+}
+
+/*section 14*/
+.attendedclassyear{
+    width: 600px;
+    float: left;
+    margin-top: 15px;
+}
+.attended{
+    width: 600px;
+    float: left;
+   
+}
+.attended input{
+    width: 600px;
+    padding: 5px 0px;
+}
+.classyear{
+    width: 300px;
+    float: left;
+    margin-top: 15px;
+    
+}
+.classyear input{
+    width: 285px;
+    float: left;
+    padding: 5px 0px;
+}
+.year{
+    width: 300px;
+    float: left;
+    margin-top: 15px;
+}
+.year input{
+    width: 295px;
+    float: left;
+    padding: 5px 0px;
+    
+}
+
+/*check box*/
+.check{
+    width: 600px;
+    float: left;
+    margin-top: 15px;
+}
+.left{
+    width: 295px;
+    float: left;
+}
+.right{
+    width: 295px;
+    float: left;
+}
+
+/*students living*/
+.stuliving{
+    width: 600px;
+    float:left;
+    margin-top: 15px;
+}
+/* 17. Is the student on the medication*/
+.stumedication{
+    width: 600px;
+    float: left;
+    margin-top: 15px;
+}
+
+.stumedication label{
+    width: 295px;
+    float: left;
+}
+
+.stumedication select{
+    width: 295px;
+    float: left;
+    padding: 5px 0px;
+}
+/*18. Name of the Medication:*/
+
+.namemedication{
+    width: 600px;
+    float: left;
+    margin-top: 15px;
+}
+
+.namemedication label{
+    width: 295px;
+    float: left;
+}
+
+.namemedication input{
+    width: 295px;
+    float: left;
+    padding: 5px 0px;
+}
+/*23. Any other relevant information*/
+.releinfo{
+    width: 600px;
+    float: left;
+    margin-top: 15px;
+}
+.releinfo label{
+    width: 600px;
+    float: left;
+   
+}
+.releinfo textarea{
+    width: 592px;
+    float: left;
+    height: 100px;
+}
+
+/*About Admission*/
+.abaddmission{
+    width: 600px;
+    float: left;
+    background-color: yellow;
+    margin-top: 15px;
+
+}
+.abaddmission li{
+    padding: 3px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+   
+}
+/*bKash Transaction Number: *	bKash Sender Mobile: **/
+.trans-number{
+    width: 600px;
+    float: left;
+    margin-top: 15px;
+}
+.trans-number label{
+    width: 300px;
+    float: left;
+}
+.trans{
+    width: 300px;
+    float: left;
+}
+.trans input{
+    width: 285px;
+    float: left;
+    padding: 5px 0px;
+}
+.sennum{
+    width: 300px;
+    float: left;
+}
+.sennum input{
+    width: 290px;
+    float: left;
+    padding: 5px 0px;
+}
+
+/*Application Date:*/
+.appdate{
+    width: 600px;
+    float: left;
+    margin-top: 15px;
+}
+.appdate label{
+    width: 300px;
+    float: left;
+}
+.appdate input{
+    width: 600px;
+    float: left;
+    padding: 5px 0px;
+}
+
+/*declartion*/
+.decleartion{
+    width: 600px;
+    float: left;
+    margin-top: 15px;
+}
+.decleartion label{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 14px;
+}
+/*Submit-application*/
+.sendapp{
+    width: 600px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 200px;
+   
+}
+
+.sendapp input{
+    padding: 12px 50px;
+    background-color: rgb(219, 79, 79);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    border: 4px solid orange;
+    border-radius: 4px;
+    transition:  2s;
+}
+
+.sendapp input:hover{
+    padding: 12px 50px;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(14, 4, 4);
+    border: 4px solid #6b6b6b;
+    border-radius: 4px;
+    
+}
